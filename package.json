@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-plugins",
+  "private": true,
+  "description": "Examples of various Gatsby plugin patterns.",
+  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.76",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/gatsby-plugins"
+  },
+  "bugs": {
+    "url": "https://github.com/jlengstorf/gatsby-plugins/issues"
+  }
+}
