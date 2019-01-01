@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "slug": "jlengstorf",
+    "name": "Jason Lengstorf",
+    "patronus": "bear",
+    "cocktails": [
+      {
+        "name": "Flannel Shirt",
+        "mainIngredient": "scotch"
+      },
+      {
+        "name": "Paper Plane",
+        "mainIngredient": "bourbon"
+      },
+      {
+        "name": "Negroni",
+        "mainIngredient": "gin"
+      },
+      {
+        "name": "Daiquiri",
+        "mainIngredient": "rum"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "slug": "marisamorby",
+    "name": "Marisa Morby",
+    "patronus": "koala",
+    "cocktails": [
+      {
+        "name": "Negroni",
+        "mainIngredient": "gin"
+      },
+      {
+        "name": "Aperol Spritz",
+        "mainIngredient": "aperol"
+      },
+      {
+        "name": "Daiquiri",
+        "mainIngredient": "rum"
+      },
+      {
+        "name": "Vermouth",
+        "mainIngredient": "vermouth"
+      }
+    ]
+  }
+]
