@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-plugin-add-data",
+  "version": "1.0.0",
+  "description": "Add data from a JSON file to Gatsby’s GraphQL layer.",
+  "main": "index.js",
+  "author": "Jason Lengstorf <jason@gatsbyjs.com>",
+  "license": "MIT",
+  "private": true
+}
