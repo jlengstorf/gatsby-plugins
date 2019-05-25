@@ -1,0 +1,48 @@
+[
+  {
+    "key": 1,
+    "name": "Negroni",
+    "recipe": [
+      {
+        "ingredient": "gin",
+        "quantity": "1oz"
+      },
+      {
+        "ingredient": "sweet vermouth",
+        "quantity": "1oz"
+      },
+      {
+        "ingredient": "Campari",
+        "quantity": "1oz"
+      },
+      {
+        "ingredient": "lemon twist",
+        "quantity": "1 (for garnish)"
+      }
+    ],
+    "directions": "Use an old fashioned glass and add one big ice cube or a few smaller cubes. Add Campari, gin, and vermouth and stir. Garnish with a lemon twist."
+  },
+  {
+    "key": 2,
+    "name": "Manhattan",
+    "recipe": [
+      {
+        "ingredient": "rye whiskey",
+        "quantity": "2oz"
+      },
+      {
+        "ingredient": "sweet vermouth",
+        "quantity": "1oz"
+      },
+      {
+        "ingredient": "Angostura bitters",
+        "quantity": "2 dashes"
+      },
+      {
+        "ingredient": "maraschino cherry",
+        "quantity": "1 (for garnish)"
+      }
+    ],
+    "directions": "Fill a pint glass with ice. Add the rye, vermouth and bitters and stir well. Strain into a chilled coupe and garnish with the cherry."
+  }
+]

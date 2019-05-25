@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-plugin-meals',
+      resolve: 'gatsby-source-meals',
       options: {
         diet: 'vegetarian',
       },

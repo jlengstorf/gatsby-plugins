@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ['gatsby-plugin-appetizers'],
+  plugins: ['gatsby-source-appetizers'],
 };

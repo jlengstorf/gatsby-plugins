@@ -1,0 +1,37 @@
+[
+  {
+    "key": 1,
+    "name": "rye whiskey",
+    "type": "spirit"
+  },
+  {
+    "key": 2,
+    "name": "sweet vermouth",
+    "type": "fortified wine"
+  },
+  {
+    "key": 3,
+    "name": "Campari",
+    "type": "apéritif"
+  },
+  {
+    "key": 4,
+    "name": "gin",
+    "type": "spirit"
+  },
+  {
+    "key": 5,
+    "name": "Angostura bitters",
+    "type": "bitters"
+  },
+  {
+    "key": 6,
+    "name": "lemon twist",
+    "type": "garnish"
+  },
+  {
+    "key": 7,
+    "name": "maraschino cherry",
+    "type": "garnish"
+  }
+]

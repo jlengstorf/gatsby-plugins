@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "04-node-relationships",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.7.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "main": "gatsby-node.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
