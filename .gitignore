@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Ignoring lockfiles because Node versions can cause issues
+yarn.lock
+package-lock.json
