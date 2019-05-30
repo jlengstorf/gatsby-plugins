@@ -36,8 +36,6 @@ exports.sourceNodes = ({
 
       // Fields required by Gatsby
       id: createNodeId(`appetizer-${appetizer.key}`),
-      parent: null,
-      children: [],
       internal: {
         type: 'Appetizer',
         contentDigest: createContentDigest(appetizer),

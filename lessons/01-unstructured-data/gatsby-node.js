@@ -44,32 +44,4 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       body: description,
     },
   });
-
-  // reporter.info('create pages for each appetizer');
-
-  // const appetizerQueryResult = await graphql(`
-  //   {
-  //     allAppetizer {
-  //       nodes {
-  //         name
-  //         slug
-  //       }
-  //     }
-  //   }
-  // `);
-
-  // if (appetizerQueryResult.errors) {
-  //   reporter.panic('error loading appetizers', appetizerQueryResult.errors);
-  // }
-
-  // appetizerQueryResult.data.allAppetizer.nodes.forEach(appetizer => {
-  //   actions.createPage({
-  //     path: `/appetizer/${appetizer.slug}`,
-  //     component: require.resolve('./src/templates/with-context.js'),
-  //     context: {
-  //       title: appetizer.name,
-  //       body: 'Delicious!'
-  //     }
-  //   });
-  // });
 };

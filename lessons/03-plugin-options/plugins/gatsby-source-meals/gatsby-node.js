@@ -46,8 +46,6 @@ exports.sourceNodes = (
 
       // required fields for Gatsby
       id: createNodeId(`Meal-${meal.key}`),
-      parent: null,
-      children: [],
       internal: {
         type: 'Meal',
         contentDigest: createContentDigest(meal),

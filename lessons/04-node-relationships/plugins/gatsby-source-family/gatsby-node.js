@@ -19,8 +19,6 @@ exports.sourceNodes = ({
 
     // required fields for Gatsby
     id: createNodeId(`${type}-${person.key}`),
-    parent: null,
-    children: [],
     internal: {
       type,
       contentDigest: createContentDigest(person),
