@@ -1,0 +1,26 @@
+[
+  {
+    "key": 1,
+    "name": "Jason Lengstorf",
+    "handle": "jlengstorf",
+    "avatar": "https://pbs.twimg.com/profile_images/715433404100059137/AYjfw8tH_400x400.jpg"
+  },
+  {
+    "key": 2,
+    "name": "Marisa Morby",
+    "handle": "marisamorby",
+    "avatar": "https://pbs.twimg.com/profile_images/769892621296791555/1CgYV4mK_400x400.jpg"
+  },
+  {
+    "key": 3,
+    "name": "Joel Hooks",
+    "handle": "jhooks",
+    "avatar": "https://pbs.twimg.com/profile_images/1094326516844945408/BRrpMeLY_400x400.jpg"
+  },
+  {
+    "key": 4,
+    "name": "John Lindquist",
+    "handle": "johnlindquist",
+    "avatar": "https://pbs.twimg.com/profile_images/930100383191461893/AAUl7IJ3_400x400.jpg"
+  }
+]

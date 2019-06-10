@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "gatsby-source-twitter",
+  "version": "1.0.0",
+  "main": "gatsby-node.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.0.39"
+  }
+}
