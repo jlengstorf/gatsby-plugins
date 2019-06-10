@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "05-foreign-key-relationships",
+  "name": "05-two-way-relationships",
   "version": "1.0.0",
   "scripts": {
     "predevelop": "gatsby clean",
