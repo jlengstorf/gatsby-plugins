@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "gatsby-source-posts",
+  "version": "1.0.0",
+  "main": "gatsby-node.js",
+  "license": "MIT"
+}

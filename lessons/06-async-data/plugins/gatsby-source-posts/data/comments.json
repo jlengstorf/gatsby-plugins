@@ -1,0 +1,27 @@
+[
+  {
+    "key": 1,
+    "name": "Joey Oddball",
+    "comment": "Who wants nachos?"
+  },
+  {
+    "key": 2,
+    "name": "Susan Squarish",
+    "comment": "Please cite your sources."
+  },
+  {
+    "key": 3,
+    "name": "Wanda Weird",
+    "comment": "Have you tried wearing the book as a hat?"
+  },
+  {
+    "key": 4,
+    "name": "Percival the Levelheaded",
+    "comment": "I rather liked this."
+  },
+  {
+    "key": 5,
+    "name": "Cassandra Sillypants",
+    "comment": "Life is too short for pants."
+  }
+]
