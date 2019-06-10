@@ -1,10 +1,3 @@
-// Quick-and-dirty helper to convert strings into URL-friendly slugs.
-const slugify = str =>
-  str
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)+/g, '');
-
 const appetizers = [
   {
     key: 1,
@@ -32,7 +25,6 @@ exports.sourceNodes = ({
     actions.createNode({
       // Custom fields
       ...appetizer,
-      slug: slugify(appetizer.name),
 
       // Fields required by Gatsby
       id: createNodeId(`appetizer-${appetizer.key}`),
