@@ -7,18 +7,17 @@ exports.sourceNodes = ({
   createContentDigest,
   reporter,
 }) => {
-  const createNodes = (dataArr, idField, type) =>
-    dataArr.map(data => ({
-      ...data,
-      id: createNodeId(`${type}-${data[idField]}`),
-      internal: {
-        type: type,
-        contentDigest: createContentDigest(data),
-      },
-    }));
+  const generateNode = type => data => ({
+    ...data,
+    id: createNodeId(`${type}-${data.key}`),
+    internal: {
+      type,
+      contentDigest: createContentDigest(data),
+    },
+  });
 
-  const ingredientNodes = createNodes(ingredients, 'key', 'Ingredient');
-  const cocktailNodes = createNodes(cocktails, 'key', 'Cocktail');
+  const ingredientNodes = ingredients.map(generateNode('Ingredient'));
+  const cocktailNodes = cocktails.map(generateNode('Cocktail'));
 
   reporter.info('creating ingredient nodes');
   ingredientNodes.forEach(ingredientNode => {
